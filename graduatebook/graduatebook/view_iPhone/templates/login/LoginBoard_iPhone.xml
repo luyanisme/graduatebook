@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="LoginBoard_iPhone">
+  <col class="wrapper">
+      <image class="bg_image"/>
+      <row class="brand_content">
+          <image class="brand_image"/>
+      </row>
+      <row class="login_content">
+          <row class="login_item">
+              <row class="info_item">
+                  <image class="user_background"/>
+                  <image class="user_image"/>
+                  <input id="userName" class="input_user_name"></input>
+              </row>
+          </row>
+          <row class="login_item">
+              <row class="info_item">
+                  <image class="user_background"/>
+                  <image class="passwd_image"/>
+                  <input id="userPasswd" class="input_user_passwd"></input>
+              </row>
+          </row>
+          
+          <row class="password_item">
+              <row class="info_item">
+                  <button id="forgotPasswd" class="forgot_passwd">忘记密码?</button>
+<!--                  <image class="forgot_line"/>-->
+                  <button id="login_button"  class="login_button">登录</button>
+              </row>
+          </row>
+      </row>
+<!--        <image id="bottom_image" class="bottom_image"/>-->
+  </col>
+   
+  <style type="text/css">
+    .wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    .bg_image{
+    position:absolute;
+    width:100%;
+    height:100%;
+    image:url(login_bg_image.png);
+    mode:fit;
+    }
+    .brand_content{
+    width:100%;
+    height:35%;
+<!--    height:40%;-->
+    margin-top:5%;
+    }
+    .brand_image{
+    width:100%;
+    height:100%;
+    mode:fit;
+    float:center;
+    image:url(login_brand.png);
+    padding-top:20px;
+    padding-bottom:30px;
+    }
+    .login_content{
+    width:100%;
+    height:30%;
+    }
+    .login_item{
+    margin-top:10px;
+    width:100%;
+    height:40px;
+    }
+    .password_item{
+    margin-top:20px;
+    width:100%;
+    height:45px;
+    }
+    .info_item{
+    width:80%;
+    height:40px;
+    float:center;
+    }
+    .user_image{
+    width:14px;
+    height:20px;
+    margin-left:9px;
+    mode:fit;
+    v-float:center;
+    image:url(login_user.png);
+    }
+    .input_user_name{
+    color:#000000;
+    margin-left:10px;
+    height:30px;
+    v-float:center;
+    width: 88%;
+    font-size: 16px;
+    input-capitalization: none;
+    input-correction: false;
+    input-clear: editing;
+    input-return-key: next;
+<!--    input-keyboard:123;-->
+    }
+    .user_background{
+    width:100%;
+    height:40px;
+    mode:fill;
+    background-color:white;
+    position:absolute;
+    bottom:0px;
+    border-radius:5px;
+    border-width:1px;
+    border-color:#c4c4c4;
+    }
+
+    .passwd_image{
+    margin-top:20px;
+    width:14px;
+    height:20px;
+    margin-left:9px;
+    mode:fit;
+    v-float:center;
+    image:url(login_password.png);
+    }
+    .input_user_passwd{
+    v-float:center;
+    color:#000000;
+    margin-left:10px;
+    height:30px;
+    width: 88%%;
+    font-size: 16px;
+    input-capitalization: none;
+    input-correction: false;
+    input-clear: editing;
+    input-return-key: done;
+    input-secure: yes
+    }
+    .forgot_passwd{
+    font:15px;
+    width:90px;
+    height:40px;
+    color:#779D96;
+    }
+    .forgot_line{
+    position:absolute;
+    width:90px;
+    height:1px;
+    mode:fill;
+    background-color:#B0B0B0;
+    bottom:5px;
+    }
+    .login_button{
+    font:18px;
+    width:80px;
+    height:100%;
+    border-width:2px;
+    border-radius:5px;
+<!--    background-color:#2ECC71;-->
+<!--    border-color:#2ECC71;-->
+    position:absolute;
+    right:0px;
+    background-color:#198283;
+    border-color:#198283;
+    }
+    
+    .bottom_image{
+     mode:fit;
+     height:144px;
+     position:absolute;
+     bottom:0px;
+     width: 100%;
+    image:url(login_bottomImg.png);
+    }
+  </style>
+</ui>

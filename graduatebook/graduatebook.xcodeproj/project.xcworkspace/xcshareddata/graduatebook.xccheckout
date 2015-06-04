@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>894BF549-3DAC-4CD6-BB3F-ED05796328E8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>433D2F3A423293ECE10219B820A48AA2B60B27E3</key>
+		<string>https://github.com/luyanisme/graduatebook.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>graduatebook/graduatebook.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>433D2F3A423293ECE10219B820A48AA2B60B27E3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/luyanisme/graduatebook.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>433D2F3A423293ECE10219B820A48AA2B60B27E3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>433D2F3A423293ECE10219B820A48AA2B60B27E3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>graduatebook</string>
+		</dict>
+	</array>
+</dict>
+</plist>
